@@ -13,6 +13,8 @@
 		04BA52052684A29A00DDE633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA52032684A29A00DDE633 /* Main.storyboard */; };
 		04BA52072684A2A000DDE633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA52062684A2A000DDE633 /* Assets.xcassets */; };
 		04BA520A2684A2A000DDE633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA52082684A2A000DDE633 /* LaunchScreen.storyboard */; };
+		04BA521A2684A90E00DDE633 /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA52182684A90E00DDE633 /* RateCell.swift */; };
+		04BA521B2684A90E00DDE633 /* RateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA52192684A90E00DDE633 /* RateCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04BA52062684A2A000DDE633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BA52092684A2A000DDE633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BA520B2684A2A000DDE633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA52182684A90E00DDE633 /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
+		04BA52192684A90E00DDE633 /* RateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		04BA51FC2684A29A00DDE633 /* ratesNBP */ = {
 			isa = PBXGroup;
 			children = (
+				04BA52112684A76900DDE633 /* Model */,
+				04BA52122684A77600DDE633 /* View */,
+				04BA52132684A77E00DDE633 /* Controller */,
 				04BA51FD2684A29A00DDE633 /* AppDelegate.swift */,
 				04BA51FF2684A29A00DDE633 /* SceneDelegate.swift */,
-				04BA52012684A29A00DDE633 /* ViewController.swift */,
-				04BA52032684A29A00DDE633 /* Main.storyboard */,
 				04BA52062684A2A000DDE633 /* Assets.xcassets */,
 				04BA52082684A2A000DDE633 /* LaunchScreen.storyboard */,
 				04BA520B2684A2A000DDE633 /* Info.plist */,
 			);
 			path = ratesNBP;
+			sourceTree = "<group>";
+		};
+		04BA52112684A76900DDE633 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BA52122684A77600DDE633 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04BA52032684A29A00DDE633 /* Main.storyboard */,
+				04BA52182684A90E00DDE633 /* RateCell.swift */,
+				04BA52192684A90E00DDE633 /* RateCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BA52132684A77E00DDE633 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BA52012684A29A00DDE633 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BA520A2684A2A000DDE633 /* LaunchScreen.storyboard in Resources */,
+				04BA521B2684A90E00DDE633 /* RateCell.xib in Resources */,
 				04BA52072684A2A000DDE633 /* Assets.xcassets in Resources */,
 				04BA52052684A29A00DDE633 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BA52022684A29A00DDE633 /* ViewController.swift in Sources */,
+				04BA521A2684A90E00DDE633 /* RateCell.swift in Sources */,
 				04BA51FE2684A29A00DDE633 /* AppDelegate.swift in Sources */,
 				04BA52002684A29A00DDE633 /* SceneDelegate.swift in Sources */,
 			);
