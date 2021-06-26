@@ -10,7 +10,12 @@ import Foundation
 
 struct RatesModel {
     let table: String
-    let no: String
     let date: String
     let rates: [RateInfo]
+}
+
+struct RatesModelDates {
+    let table: String
+    let code: String
+    let rates: [RateInfoDates]
 }

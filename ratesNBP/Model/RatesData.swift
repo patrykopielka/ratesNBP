@@ -9,7 +9,6 @@ import Foundation
 
 struct RatesData: Codable {
     let table: String
-    let no: String
     let effectiveDate: String
     let rates: [RateInfo]
 }
@@ -17,6 +16,20 @@ struct RatesData: Codable {
 struct RateInfo: Codable {
     let currency: String
     let code: String
-    let mid: Float
+    let mid: Float?
+    let bid: Float?
+    let ask: Float?
 }
 
+struct RatesDataDates: Codable {
+    let table: String
+    let code: String
+    let rates: [RateInfoDates]
+}
+
+struct RateInfoDates: Codable {
+    let effectiveDate: String
+    let mid: Float?
+    let bid: Float?
+    let ask: Float?
+}
