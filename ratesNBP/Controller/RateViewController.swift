@@ -9,7 +9,6 @@ import UIKit
 
 class RateViewController: UIViewController {
     
-    
     @IBOutlet weak var ratesDatesTableView: UITableView!
     
     @IBOutlet weak var firstDatePicker: UIDatePicker!
@@ -18,6 +17,7 @@ class RateViewController: UIViewController {
     @IBOutlet weak var refreshButton: UIButton!
     
     let datePicker = UIDatePicker()
+    let formatter = DateFormatter()
     var ratesManagerDates = RatesManagerDates()
     var rates = [RateInfoDates]()
     var rateCode = ""
@@ -27,12 +27,16 @@ class RateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        formatter.dateFormat = "yyyy-MM-dd"
         refreshButton.layer.cornerRadius = 5
         refreshButton.layer.borderWidth = 1
         ratesManagerDates.delegate = self
+        
+        ratesDatesTableView.bottomAnchor.constraint(greaterThanOrEqualTo: view.bottomAnchor, constant: 225.0)
         ratesDatesTableView.delegate = self
         ratesDatesTableView.dataSource = self
         ratesDatesTableView.register(UINib(nibName: "RateCell", bundle: nil), forCellReuseIdentifier: "rateCell")
+        
         firstDatePicker.datePickerMode = .date
         secondDatePicker.datePickerMode = .date
     }
@@ -47,8 +51,6 @@ class RateViewController: UIViewController {
         errorLabel.text = ""
         ratesDatesTableView.setContentOffset(ratesDatesTableView.contentOffset, animated: false)
         
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
         firstDate = formatter.string(from: sender.date)
         
         ratesManagerDates.fetchData(table: rateTable, code: rateCode, firstDate: firstDate, secondDate: secondDate)
@@ -56,22 +58,16 @@ class RateViewController: UIViewController {
         createSpinnerView()
     }
     
-    
     @IBAction func secondDatePickerChanged(_ sender: UIDatePicker) {
         errorLabel.text = ""
         ratesDatesTableView.setContentOffset(ratesDatesTableView.contentOffset, animated: false)
         
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
         secondDate = formatter.string(from: sender.date)
         
         ratesManagerDates.fetchData(table: rateTable, code: rateCode, firstDate: firstDate, secondDate: secondDate)
         ratesDatesTableView.reloadData()
         createSpinnerView()
     }
-    
-    
-    
 }
 
 extension RateViewController: UITableViewDelegate, UITableViewDataSource {

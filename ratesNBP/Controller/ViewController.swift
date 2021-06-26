@@ -13,13 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableAButton: UIButton!
     @IBOutlet weak var tableBButton: UIButton!
     @IBOutlet weak var tableCButton: UIButton!
+    @IBOutlet weak var refreshButton: UIButton!
     
+    var ratesManager = RatesManager()
+    var rates = [RateInfo]()
     var rateTable = "A"
     var rateCode = ""
     var rateDate = ""
-    var rates = [RateInfo]()
-    
-    var ratesManager = RatesManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         tableBButton.layer.borderWidth = 1
         tableCButton.layer.cornerRadius = 5
         tableCButton.layer.borderWidth = 1
+        refreshButton.layer.cornerRadius = 5
+        refreshButton.layer.borderWidth = 1
         
         title = "Exchange Rates"
         ratesManager.fetchData(table: "A")
