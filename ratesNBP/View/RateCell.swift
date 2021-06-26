@@ -14,6 +14,7 @@ class RateCell: UITableViewCell {
     @IBOutlet weak var rateCode: UILabel!
     @IBOutlet weak var rateName: UILabel!
     @IBOutlet weak var rateMid: UILabel!
+    @IBOutlet weak var rateAsk: UILabel!
     @IBOutlet weak var rateDate: UILabel!
     
 
