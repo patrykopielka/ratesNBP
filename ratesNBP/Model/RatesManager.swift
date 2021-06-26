@@ -11,7 +11,6 @@ protocol RatesManagerDelegate: AnyObject {
     func didUpdateRate(rateModel: RatesModel)
 }
 
-
 struct RatesManager {
     
     weak var delegate: RatesManagerDelegate?
@@ -24,6 +23,7 @@ struct RatesManager {
                     let decoder = JSONDecoder()
                     if let safeData = data {
                         do {
+                            
                             let result = try decoder.decode([RatesData].self, from: safeData)
                             
                             let rates = result[0].rates
