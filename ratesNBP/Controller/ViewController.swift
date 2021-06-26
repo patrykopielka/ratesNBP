@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         tableCButton.layer.cornerRadius = 5
         tableCButton.layer.borderWidth = 1
         
-        title = "RATES"
+        title = "Exchange Rates"
         ratesManager.fetchData(table: "A")
         ratesManager.delegate = self
         ratesTableView.delegate = self
