@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7ABA3ED1-A589-4651-BA8E-506CD923A8E2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A543CC6-FC73-485F-8607-CB31DBA584A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ratesNBP/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "tableChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ratesNBP/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - a26f848fb6547906"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.rateTable.getter : Swift.String"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - 74609f76374d491a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.rateTable.setter : Swift.String"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - d0efabccbd24a7b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.rateTable.modify : Swift.String"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - e68ab288a377951a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.rateTable.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - b9b28fbe863aa616"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ratesNBP.ViewController"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "535">
+               </Location>
+               <Location
+                  uuid = "4389966E-FBBB-49DF-8B16-C22F88C341B3 - b89a8eb76a6bddfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ratesNBP.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ratesNBP.ViewController&gt;"
+                  moduleName = "ratesNBP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrykopielka/Documents/Dokumenty%20%E2%80%94%20MacBook%20Air%20(Patryk)/Projects/ratesNBP/ratesNBP/Controller/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "479">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

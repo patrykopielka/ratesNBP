@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B80F3F268524510081F58D /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B80F3E268524510081F58D /* SpinnerViewController.swift */; };
+		04B80F412685F1D00081F58D /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B80F402685F1D00081F58D /* RateViewController.swift */; };
+		04B80F432685FD8F0081F58D /* RatesManagerDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B80F422685FD8F0081F58D /* RatesManagerDates.swift */; };
 		04BA51FE2684A29A00DDE633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA51FD2684A29A00DDE633 /* AppDelegate.swift */; };
 		04BA52002684A29A00DDE633 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA51FF2684A29A00DDE633 /* SceneDelegate.swift */; };
 		04BA52022684A29A00DDE633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA52012684A29A00DDE633 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B80F3E268524510081F58D /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		04B80F402685F1D00081F58D /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		04B80F422685FD8F0081F58D /* RatesManagerDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesManagerDates.swift; sourceTree = "<group>"; };
 		04BA51FA2684A29A00DDE633 /* ratesNBP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ratesNBP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BA51FD2684A29A00DDE633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BA51FF2684A29A00DDE633 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,8 +87,9 @@
 		04BA52112684A76900DDE633 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				04BA521C2684AEA200DDE633 /* RatesData.swift */,
 				04BA521E2684AF8900DDE633 /* RatesManager.swift */,
+				04B80F422685FD8F0081F58D /* RatesManagerDates.swift */,
+				04BA521C2684AEA200DDE633 /* RatesData.swift */,
 				04BA52202684B07100DDE633 /* RatesModel.swift */,
 			);
 			path = Model;
@@ -102,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				04BA52012684A29A00DDE633 /* ViewController.swift */,
+				04B80F3E268524510081F58D /* SpinnerViewController.swift */,
+				04B80F402685F1D00081F58D /* RateViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,10 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B80F412685F1D00081F58D /* RateViewController.swift in Sources */,
 				04BA52022684A29A00DDE633 /* ViewController.swift in Sources */,
 				04BA521A2684A90E00DDE633 /* RateCell.swift in Sources */,
 				04BA521D2684AEA200DDE633 /* RatesData.swift in Sources */,
 				04BA521F2684AF8900DDE633 /* RatesManager.swift in Sources */,
+				04B80F432685FD8F0081F58D /* RatesManagerDates.swift in Sources */,
+				04B80F3F268524510081F58D /* SpinnerViewController.swift in Sources */,
 				04BA51FE2684A29A00DDE633 /* AppDelegate.swift in Sources */,
 				04BA52002684A29A00DDE633 /* SceneDelegate.swift in Sources */,
 				04BA52222684B13800DDE633 /* RatesModel.swift in Sources */,
